@@ -40,3 +40,7 @@ func main(){
 	decodedJsonString := Decode(jsonResult)
 	fmt.Println(decodedJsonString)
 }
+
+// 1. you need to use encoding/json package
+// 2. they are the key names for the JSON object
+// 3. you catch them during encoding or decoding
